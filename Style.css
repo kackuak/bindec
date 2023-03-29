@@ -1,0 +1,125 @@
+body{
+    text-align: center;
+    background-color: rgb(21, 204, 250);
+    color: white;
+    
+}
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+#wynik {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+#wynik:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+#wynik:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  #wynik {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+.full{
+    position: relative;
+    top: 300px;
+}
+header{
+    position: relative;
+    top: 300px;
+}
+h1 {
+    color: #fff;
+    font-size: 3.6em;
+    max-width: 7ch;
+    opacity: .6;
+    margin-left: 20%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: url("#flyOn");
+  animation: wavemover 10s infinite alternate linear;
+  font-family: 'Rubik Mono One', sans-serif;
+  background:
+  }
+  
+  @keyframes wavemover {
+    100% {
+      padding-left: 700px;
+      transform: translateX(200px);
+    }
+  }
+  
